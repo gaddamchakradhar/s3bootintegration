@@ -1,0 +1,25 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAWUEYUOY7X7C5HWWN 
+      secret-key: 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
+    region:
+      static:  ap-south-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: mypag
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 8090
